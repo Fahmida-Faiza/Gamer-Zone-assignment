@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+/* navbar */
+
+
+.section-title {
+text-align: center;
+   
+    font-size: 45px;
+   
+    font-weight: 700;
+  
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+            padding: 0 140px;
+            height: 90px;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+color: #3C354F;
+    text-align: center;
+    margin-right: 30px;
+    list-style: none;
+   
+    font-size: 18px;
+   
+    font-weight: 500;
+    
+  
+
+}
+.text-color{
+    color:#FF42A5;
+}
+  .link-color{
+    border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+      padding: 10px;
+     
+            
+ }
+ 
+nav li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+/* main {
+    max-width: 1080px;
+    margin: 70px auto;
+} */
+
+/* main styles plaay */
+.play {
+    /* margin-top: 130px; */
+    display: flex;
+    /* gap: 100px; */
+}
+.bg-img {
+    background: url("/images/Group\ 14.png");
+    width: 901px;
+        height: 600px;
+        
+    
+
+}
+
+.play-content .section-title {
+
+color: #0B0223;
+ 
+    font-size: 3rem;
+    
+    font-weight: 600;
+    position: relative;
+   top:50px;
+   
+   
+}
+
+
+.play .section-paragraph {
+text-align: center;
+    font-family: Work Sans;
+    font-size: 5rem;
+    
+    font-weight: 800;
+   
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        /* background-clip: text; */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 50px 0;
+  
+    
+       
+      
+
+
+}
+.play .description{
+   padding: 0 230px;
+}
+
+.play-img img{
+    width: 80%;
+    height: 100%;
+
+
+}
+
+.btn-primary {
+    border:0;
+    display: inline-flex;
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        color:#FFF;
+
+border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-primary2{
+border: 0;
+display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+
+   
+    border-radius: 48px;
+        background: #4EC5F7;
+
+}
