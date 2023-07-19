@@ -152,3 +152,63 @@ display: inline-flex;
         background: #4EC5F7;
 
 }
+
+/* online game  */
+.online-games{
+        
+        margin-left: 150px;
+
+}
+.game-card-container {
+    display: flex;
+    /* justify-content: space-around; */
+    gap:20px;
+  
+
+}
+.card img{
+    width: 272px;
+        height: 300px;
+        
+}
+
+.game-section-title {
+    text-align: center;
+
+    font-size: 45px;
+
+    font-weight: 700;
+
+
+
+}
+ .text-light-gray{
+text-align: center;
+padding-bottom: 20px;
+
+}
+.game-card-container .text-light-gray{
+
+    text-align: center;
+    color: #534C64;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 150% */
+        width: 272px;
+}
+
+ .online-games .funny-color{
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Work Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+ }
